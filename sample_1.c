@@ -1,0 +1,9 @@
+#include<stdio.h>
+main()
+{
+	printf("%d\n",5+3*8/4);
+	printf("%d\n",5+18%5*3);
+	printf("%f\n",4.00*3.00+2.00);
+	printf("%d\n",(5+18)%4);
+	printf("%f\n",4.00*3.00/2.00+1.00);
+}
