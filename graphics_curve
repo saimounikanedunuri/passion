@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+#include<dos.h>
+#include<graphics.h>
+main()
+{
+	int i, gd=DETECT,gm,i;
+	intgraph(&gd,&gm,"..\\bgi");
+	for(i=0;i<=10000&&!kbhit();i++)
+	{
+  arc(getmaxx()/2,getmaxy()/2,0+i,90+i,i/10);
+		delay(10);
+    }
+	getch();
+}
